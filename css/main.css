@@ -17,11 +17,16 @@
 #nav-container {
     height: 10vh;
     padding: 0;
+
 }
 
 
-.container {
+.container-fluid {
     position: relative;
+    top: 0;
+    left: 0;
+
+    background-image: url(../img/bg-overlay.png);
 }
 
 #video-container {
@@ -30,10 +35,11 @@
     margin: 0;
     top: 0;
     left: 0;
+    z-index: -1;
    /* height:80vh;
     width: 88vw;*/ 
 }
-
+/*
 #video-cover {
     position: absolute;
     padding: 0;
@@ -41,11 +47,11 @@
     top: 0;
     left: 0;
     opacity: .8;
-   /*background-color: #45a9f8;
+   background-color: #45a9f8;
    height:80vh;
-   width: 88vw;*/
-
+   width: 88vw;
 }
+*/
 
 #video-cover img{
     /height:80vh;
@@ -53,9 +59,11 @@
 }
 
 .content-wrapper{
-    padding: 0;
     position: relative;
+    padding: 0;
+    
     margin: 4vh 0 0 0; 
+
      
 }
 
