@@ -48,8 +48,8 @@
 }
 
 #video-cover img{
-    /*height:80vh;
-    width: 88vw;*/
+    /height:80vh;
+    width: 88vw;
 }
 
 .content-wrapper{
@@ -87,6 +87,6 @@ p {
     background-color: white;
 }
 
-#glue{
+.glue{
     width: 30vw;
 }
