@@ -14,6 +14,52 @@
     src: url(../Fonts/Roboto/Roboto-Black.ttf);
 }
 
+.FredokaOne{
+    font-family: FredokaOne-Regular;
+    color: #ff8305;
+}
+
+.Roboto{
+    font-family: Roboto;
+    color: white;
+}
+
+.shadow {
+
+    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+.txt{
+    color: #194f75;
+    font-weight: bold; 
+    line-height: .1;
+    font-size: 0.8rem;
+}
+
+.txt-medium{
+    font-size: 1.5rem;
+}
+
+.txt-small{
+    color: #194f75;
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin-top: 2vh;
+}
+
+.txt-bottom{
+    color: #0198ff;
+    font-size: 1.4rem;
+}
+
+.card-top-text{
+    color: #0198ff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1.5vh 0 1.5vh 0;
+}
+
 #nav-container {
     height: 10vh;
     padding: 0;
@@ -25,7 +71,6 @@
     position: relative;
     top: 0;
     left: 0;
-
     background-image: url(../img/bg-overlay.png);
 }
 
@@ -53,48 +98,56 @@
 }
 */
 
-#video-cover img{
-    /height:80vh;
-    width: 88vw;
-}
-
 .content-wrapper{
     position: relative;
     padding: 0;
-    
-    margin: 4vh 0 0 0; 
-
-     
+    margin: 4vh 0 0 0;      
 }
 
-h1 {
-    font-family: FredokaOne-Regular;
-    color: rgb(248, 151, 87);
-    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
-}
-
-h2 {
-    font-family: FredokaOne-Regular;
-    color: rgb(248, 151, 87);
-    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
-}
-
-h5 {
-    font-family: FredokaOne-Regular;
-    color: rgb(42, 103, 196);
-    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
-}
-
-p {
-    font-family: Roboto;
-    color: white;
-}
-
-.button {
-    color: rgb(248, 151, 87);
+#button-orange {
+    color: #ff8305;
     background-color: white;
+    height: 40px;
+    width: 100px;
+}
+
+#button-blue {
+    color: white;
+    background-color: #0099ff;
+    height: 35px;
 }
 
 .glue{
     width: 30vw;
+}
+
+#workshops-bg{
+    background-image: url(../img/talleres-mobile.png);
+    height: 50vh;
+    background-size: cover;
+
+}
+
+
+#middle-section{
+    background-image: url(../img/talleres-bg.png);
+    background-size: 100% 100%;
+}
+
+#workshops-info{
+    height: 50vh;
+}
+
+.card{
+    align-items: center;
+    padding: 0;
+    margin: 2vh 0 2vh 0;
+    border-radius: 25px;
+    width: 80%;
+}
+
+.card-img-top{
+    width: 90%;
+    border: 1px;
+    border-radius: 25px;
 }
