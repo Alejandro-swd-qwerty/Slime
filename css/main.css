@@ -8,45 +8,44 @@
     src: url(../Fonts/Roboto/Roboto-Black.ttf);
 }
 
-.FredokaOne{
+.FredokaOne {
     font-family: FredokaOne-Regular;
     color: #ff8305;
 }
 
-.Roboto{
+.Roboto {
     font-family: Roboto;
     color: white;
 }
 
 .shadow {
-
     text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
 }
 
-.txt{
+.txt {
     color: #194f75;
-    font-weight: bold; 
+    font-weight: bold;
     line-height: .1;
     font-size: 0.8rem;
 }
 
-.txt-medium{
+.txt-medium {
     font-size: 1.5rem;
 }
 
-.txt-small{
+.txt-small {
     color: #194f75;
     font-weight: bold;
     font-size: 0.5rem;
     margin-top: 2vh;
 }
 
-.txt-bottom{
+.txt-bottom {
     color: #0198ff;
     font-size: 1.4rem;
 }
 
-.card-top-text{
+.card-top-text {
     color: #0198ff;
     font-weight: bold;
     font-size: 1.2rem;
@@ -54,93 +53,167 @@
     margin: 1.5vh 0 1.5vh 0;
 }
 
+.desktop p {
+    font-size: 1.5rem;
+}
+
+.desktop h2 {
+    font-size: 3rem;
+}
+
+.desktop h5 {
+    font-size: 1.8rem;
+}
+
+.desktop h1 {
+    font-size: 3rem;
+}
+
+#logo {
+    max-width: 60%;
+}
+
 #nav-container {
     height: 10vh;
     padding: 0;
-
 }
 
+.navbar-collapse ul {
+    list-style-type: none;
+}
+
+.navbar-collapse ul li {
+    margin-left: 10vw;
+}
+
+.navbar-collapse ul li a {
+    font-family: FredokaOne-Regular;
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.modal-content {
+    background-image: url(../img/bg-overlay.png);
+    height: 70vh;
+}
+
+.FredokaOne span {
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+}
 
 .container-fluid {
     background-image: url(../img/bg-overlay.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content-wrapper {
+    height: 87vh;
 }
 
 #video-container {
     position: absolute;
     padding: 0;
     margin: 0;
-    top: 0;
+    top: -90px;
     left: 0;
     z-index: -1;
-   /* height:80vh;
-    width: 88vw;*/ 
-}
-/*
-#video-cover {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    opacity: .8;
-   background-color: #45a9f8;
-   height:80vh;
-   width: 88vw;
-}
-*/
-
-#video-cover img{
-    height:80vh;
-    width: 88vw;
-}
-
-.content-wrapper{
-    position: relative;
-    padding: 0;
-    margin: 4vh 0 0 0;    
+    height: 80vh;
 }
 
 #button-orange {
     color: #ff8305;
+    border-color: #ff8305;
     background-color: white;
-    height: 40px;
-    width: 100px;
+    height: 23px;
+    width: 120px;
+}
+
+.desk-container button {
+    color: #ff8305;
+    font-size: 1.3rem;
+    border-color: #ff8305;
+    background-color: white;
+    height: 30px;
+    width: 200px;
 }
 
 #button-blue {
     color: white;
     background-color: #0099ff;
-    height: 35px;
+    border-color: #0099ff;
+    height: 30px;
 }
 
-#dropdown{
+#dropdown-btn {
     color: white;
     font-weight: bold;
+    font-size: 0.8rem;
     border: none;
     border-radius: 0;
+    height: 6vh;
 }
 
-.glue{
-    width: 30vw;
+@media only screen and (mim-width: 576px) {
+    .dd-desktop a {
+        font-size: 1.8rem;
+    }
 }
 
-#workshops-bg{
+.glue {
+    height: 80%;
+}
+
+.glue img {
+    width: 60vw;
+}
+
+.glue-desk {
+    height: 10%;
+}
+
+.glue-desk img {
+    height: 50%;
+}
+
+.desk-container {
+    height: 80vw;
+}
+
+#workshops-bg {
     background-image: url(../img/talleres-mobile.png);
-    height: 50vh;
+    height: 100vw;
     background-size: cover;
-
 }
 
-#middle-section{
+#workshops-bg-desk {
+    height: 50%;
+}
+
+#workshops-bg-desk {
+    display: flex;
+    justify-content: center;
+}
+
+#workshops-bg-desk img {
+    width: 30vh;
+}
+
+#middle-section {
     background-image: url(../img/talleres-bg.png);
     background-size: 100% 100%;
 }
 
-#workshops-info{
-    height: 50vh;
+@media only screen and (max-width: 576px) {
+    #workshops-info {
+        height: 80vw;
+    }
 }
 
-.card{
+.card {
     align-items: center;
     padding: 0;
     margin: 2vh 0 2vh 0;
@@ -148,7 +221,7 @@
     width: 80%;
 }
 
-.card-img-top{
+.card-img-top {
     width: 90%;
     border: 1px;
     border-radius: 25px;
